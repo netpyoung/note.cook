@@ -8,7 +8,7 @@ class MDBookSidebarScrollbox extends HTMLElement {
         super();
     }
     connectedCallback() {
-        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><a href="Index.html">들어가며</a></li></ol>';
+        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><a href="Index.html">들어가며</a></li><li class="chapter-item expanded affix "><li class="part-title">주방용품</li><li class="chapter-item expanded "><a href="Kitchenware/Kitchenware.html">주방용품</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Kitchenware/tableware.html">식기류</a></li><li class="chapter-item expanded "><a href="Kitchenware/cookware.html">조리기구</a></li><li class="chapter-item expanded "><a href="Kitchenware/appliances.html">주방가전</a></li><li class="chapter-item expanded "><a href="Kitchenware/utensils.html">요리기구</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">레시피</li><li class="chapter-item expanded "><a href="Recipe/Recipe.html">레시피</a></li><li class="chapter-item expanded affix "><li class="part-title">조미료</li><li class="chapter-item expanded "><a href="Condiment/Condiment.html">조미료</a></li></ol>';
         // Set the current, active page, and reveal it if it's hidden
         let current_page = document.location.href.toString();
         if (current_page.endsWith("/")) {
