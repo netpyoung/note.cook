@@ -2,7 +2,7 @@
 title = "넷평의 쿡 노트"
 description = "note.cook"
 authors = ["netpyoung"]
-language = "kr"
+language = "ko"
 multilingual = false
 src = "src"
 
