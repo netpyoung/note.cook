@@ -3,7 +3,6 @@ title = "넷평의 쿡 노트"
 description = "note.cook"
 authors = ["netpyoung"]
 language = "ko"
-multilingual = false
 src = "src"
 
 [preprocessor.toc]
